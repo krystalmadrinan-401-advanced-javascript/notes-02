@@ -1,0 +1,27 @@
+{
+  "name": "notes-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystalmadrinan-401-advanced-javascript/notes-02.git"
+  },
+  "author": "Krystal Madrinan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krystalmadrinan-401-advanced-javascript/notes-02/issues"
+  },
+  "homepage": "https://github.com/krystalmadrinan-401-advanced-javascript/notes-02#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "minimist": "^1.2.5"
+  }
+}
