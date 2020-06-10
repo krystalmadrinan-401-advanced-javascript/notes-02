@@ -1,13 +1,12 @@
 {
-  "name": "notes-02",
+  "name": "notes-lab02",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "start": "node index.js",
+    "lint": ""
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jest": "^26.0.1",
     "minimist": "^1.2.5"
   }
 }
