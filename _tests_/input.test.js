@@ -1,3 +1,18 @@
+'use strict'
+
+// From Jacob's demo
+
+// jest.mock('minimist');
+
+// const minimist = require('minimist');
+// minimist.mockImplementation(() => {
+//   return {
+//     {u: 'http://localhost:3000' m: 'GET' }
+//   },
+// })
+
+const Input = require('../lib/input.js');
+
 // BAD INPUT:
 
 // No data entered in command line (null)
@@ -7,7 +22,7 @@ const badInputA = [];
 const badInputB = ['wrong input'];
 
 // Wrong flag entered in command line
-const badInputC = ['-e', 'string'];
+const badInputC = ['-e', 'wrong flag'];
 
 // Data is not a string note: number works and gets turned into string
 const badInputD = ['-a', ''];
@@ -52,4 +67,4 @@ describe('module handles good input', () => {
     })
 })
 
-const Input = require('../lib/input.js');
+
