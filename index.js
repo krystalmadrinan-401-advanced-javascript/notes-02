@@ -1,6 +1,6 @@
 'use strict';
 
-console.log('APP EXISTS');
+console.log('NOTESY 2020');
 
 
 /* 
@@ -12,6 +12,7 @@ console.log('APP EXISTS');
 
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
+const mongoose = require('mongoose');
 
 //parse command line arguments
 
